@@ -47,7 +47,7 @@ async function getQuote() {
 function tweetQuote() {
     const quote = quoteText.innerText;
     const verse = verseText.innerText;
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${quote} - ${author}`;
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quote} - ${verse}`;
     window.open(twitterUrl, '_blank')
 }
 
